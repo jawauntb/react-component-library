@@ -10,16 +10,16 @@ class Adbar extends Component {
           <div class="col-sm-2 well">
             <div class="thumbnail">
               <p>Upcoming Events:</p>
-              <img src="" alt="Paris" width="400" height="300"/>
-              <p><strong>Paris</strong></p>
-              <p>Fri. 27 November 2015</p>
+              <img src="" alt="This" width="400" height="300"/>
+              <p><strong>This</strong></p>
+              <p> 25 December 2025</p>
               <button class="btn btn-primary">Info</button>
             </div>      
             <div class="well">
-              <p>ADS</p>
+              <p>Potential Adspace</p>
             </div>
             <div class="well">
-              <p>ADS</p>
+              <p>More Ads</p>
             </div>
           </div>
       );
@@ -32,7 +32,7 @@ class Adbar extends Component {
       return (
         <div class="col-sm-3 well">
           <div class="well">
-            <p><a href="#">My Profile</a></p>
+            <p><a href="#">Your Profile</a></p>
             <img src="bird.jpg" class="img-circle" height="65" width="65" alt="Avatar" />
           </div>
           <TagsBox />

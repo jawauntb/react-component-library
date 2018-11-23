@@ -18,7 +18,7 @@ class ProfileCenter extends Component {
             <div class="col-sm-12">
               <div class="panel panel-default text-left">
                 <div class="panel-body">
-                  <p contenteditable="true">Status: Feeling Blue</p>
+                  <p contenteditable="true">Status: Well its 3am how do you feel???</p>
                   <button type="button" class="btn btn-default btn-sm">
                     <span class="glyphicon glyphicon-thumbs-up"></span> Like
                   </button>     
@@ -26,8 +26,8 @@ class ProfileCenter extends Component {
               </div>
             </div>
           </div>
-          <Tweetbox/>
           <BigHeadingParagraph/>
+          <Tweetbox/>
           <GalleryRow/>
           <BlogPost/>
         </div>
@@ -63,7 +63,7 @@ class MainContainer extends Component {
       <div class="container text-center">
       <SiteHeader/>
         <div class="row">
-            <div><SideNav/></div>
+            <div><Extrasbar/></div>
             <div><ProfileCenter/></div>
             <div><Adbar/></div>    
             <CommentSection/>

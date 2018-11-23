@@ -6,7 +6,7 @@ class LeaveComment extends Component {
     return (
       <div>
         <hr />
-        <h4>Leave a Comment:</h4>
+        <h4>Leave Comments:</h4>
         <form role="form">
           <div class="form-group">
             <textarea class="form-control" rows="3" required></textarea>
@@ -35,8 +35,8 @@ class CommentText extends Component {
   render() {
     return (
       <div>
-        <h4>Nested Bro <small>Sep 25, 2015, 8:28 PM</small></h4>
-        <p>Me too! WOW! Keep up the GREAT work!</p>
+        <h4>Some Dude or Woman<small>Dec 28, 2110, 3:07 AM</small></h4>
+        <p>Me too! WOW! You're amazing I can't even</p>
         <br />
       </div>
     );

@@ -8,7 +8,7 @@ class SiteHeader extends Component {
           <div class="jumbotron"><br/>
             <div class="container text-center">
               <h1>Site Template</h1>      
-              <p>Fill it in yourself you lazy twat</p>
+              <p>Fill it in yourself you lazy *^Y@</p>
             </div>
           </div>
         </div>
